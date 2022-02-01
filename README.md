@@ -26,7 +26,7 @@ ejemplo:
 ### DB_USERNAME=usuario_de_base_de_datos
 ### DB_PASSWORD=contrasena_de_base_de_datos
 
-## 3- con estosi hhace uso del achivo registro.db que se encuentra en el repositorio podra probar el software
+## 3- con estosi hhace uso del achivo registro.sql  que se encuentra en el repositorio podra probar el software
 
-## 4 - (opcional) si lo desea puede ejecutar las migraciones, para ellos debe seguir el paso 2 y luego ingresar desde su CMD a la carpeta raiz del proyecto y ejecutar "$ php artisan migrate", este comando creara las tablas de la base de datos sin necesidad de migrar el archivo registro.db.
+## 4 - (opcional) si lo desea puede ejecutar las migraciones, para ellos debe seguir el paso 2 y luego ingresar desde su CMD a la carpeta raiz del proyecto y ejecutar "$ php artisan migrate", este comando creara las tablas de la base de datos sin necesidad de migrar el archivo registro.sql .
 ## lo siguiente seria llenar las tablas con registros para que pruebe de priumera mano el funcionamiento del software
