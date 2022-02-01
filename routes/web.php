@@ -15,6 +15,9 @@
 
 Route::get('/', 'AlumnoController@info')->name('alumno.info');
 
+Route::post('alumnos-list', 'AlumnoController@list_request')->name('alumno.list');
+
+
 Route::resource('alumno', 'AlumnoController')->except('show');
 Route::resource('materia', 'MateriaController')->except('show');
 Route::resource('grado', 'GradoController')->except('show');

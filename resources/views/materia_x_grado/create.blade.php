@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-10">
             <div class="card">
-                <div class="card-header">Nuevo Grado</div>
+                <div class="card-header">Nueva Asignacion</div>
 
                 <div class="card-body">
                     @if ($errors->any())
